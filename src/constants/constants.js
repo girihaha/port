@@ -44,15 +44,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Frontend Developer",
+    title: "Cracker",
     icon: web,
   },
   {
-    title: "Backend Developer",
+    title: "Carder",
     icon: mobile,
   },
   {
-    title: "Programmer",
+    title: "Designer",
     icon: backend,
   },
   // {
@@ -61,352 +61,42 @@ const services = [
   // },
 ];
 
-const technologies = [
-  {
-    name: "React JS",
-    icon: reactjs,
-    position: [0, 0, 0],
-  },
-  {
-    name: "Next JS",
-    icon: nextjs,
-    position: [2, 0, 0],
-  },
-  {
-    name: "Express JS",
-    icon: express,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "Java",
-    icon: java,
-  },
-  {
-    name: "JWT",
-    icon: jwt,
-  },
-  // {
-  //   name: "NextAuth",
-  //   icon: nextauth,
-  // },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
-];
 
 const projects = [
   {
-    name: "InkSync",
+    name: "Perplexity AI Subscription",
     description:
-      "A real-time collaborative whiteboard web application built with NextJs, Express, and Socket.io.",
+      "Helping Peoples for their studies and work by providing perplexity ai 1 year subscription on their mail in lowest cost.",
     features: [
-      "Users can create a room and invite others to join the room using a unique room code.",
-      "Users can draw on the whiteboard and the changes will be reflected in real-time to all the users in the room.",
+      "Users can use many ai models such as gpt 4o, sonar , claude .",
+      "Users can also use image generational model such as playground v3 , dall e .",
     ],
     tags: [
       {
-        name: "NextJs",
+        name: "Perplexity",
         color: "blue-text-gradient",
       },
       {
-        name: "ExpressJs",
+        name: "AI",
         color: "green-text-gradient",
       },
       {
-        name: "Socket.io",
+        name: "Best Gpt ",
         color: "pink-text-gradient",
       },
       {
-        name: "Tailwind",
+        name: "In budget",
         color: "orange-text-gradient",
       },
       {
-        name: "NodeJs",
+        name: "Cheapest",
         color: "blue-text-gradient",
       },
     ],
-    image: inkSync,
-    source_code_link: "https://github.com/himanshu8443/InkSync",
-    live_link: "https://www.inksync.cloud/",
+    image: perplexity,
+    source_code_link: "https://github.com/girihaha/port/blob/main/Perplexity-AI-Partnership-with-SoftBank-for-Japan-Expansion.jpg?raw=true",
+    live_link: "https://www.cryptotimes.io/wp-content/uploads/2024/06/Perplexity-AI-Partnership-with-SoftBank-for-Japan-Expansion.jpg",
   },
-  {
-    name: "Hayasaka",
-    description:
-      "A dynamic full-stack music streaming web application with Next.js 13 and MongoDB.",
-    features: [
-      "User authentication using NextAuth.js with JWT and OAuth providers.",
-      "Redux to Manage app state effectively.",
-      "Play, pause, skip, and control the playback of songs.",
-      "Users can Create, update and delete their own playlists.",
-      "Add songs to favorites in one click.",
-      "Auto adds similar songs to the queue.",
-      "Swipe and touch gestures for touch-responsive devices.",
-      "Display song details such as title, artist, album, and album artwork.",
-      "PWA (Progressive Web App) support. ",
-    ],
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "nextjs",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "nextauth",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "green-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/himanshu8443/hayasaka",
-    live_link: "https://hayasaka.live/",
-  },
-  {
-    name: "Study Notion",
-    description: "Developed an educational technology website with CMS.",
-    features: [
-      "Implemented Email verification and using OTP user authentication and login/signup functionality using JWT for secure access to the platform.",
-      "Students can browse and purchase courses. Instructors can create new courses, edit existing courses, and delete courses they have created.",
-      "Integrated MongoDB database to store user information, course data, and progress tracking.",
-      "Employed RESTful API principles for seamless communication between the frontend and backend systems.",
-      "Razorpay payment integration.",
-      "PWA (Progressive Web App) support.",
-    ],
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "ExpressJs",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/himanshu8443/Study-Notion-master",
-    live_link: "https://studynotion-master.vercel.app/",
-  },
-  {
-    name: "FlipKart Price Tracker",
-    description:
-      "Chrome extension to track FlipKart product prices and send an alert to users when prices go below the user-selected price.",
-    features: [
-      "Users can add products to the watchlist by clicking on the extension icon on the product page.",
-      "Users can set a price alert by entering the desired price for the product.",
-    ],
-    tags: [
-      {
-        name: "JavaScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Chrome Extension",
-        color: "green-text-gradient",
-      },
-      {
-        name: "ReactJs",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tracker,
-    source_code_link: "https://github.com/himanshu8443/FlipKart-Price-Tracker",
-    live_link:
-      "https://chromewebstore.google.com/detail/fliptrack-flipkart-price/pekpfcghlbljghaojdlajgpceebobokd?hl=en",
-  },
-  {
-    name: "Social Sphere",
-    description:
-      "A full-stack social media application with user authentication, infinite scroll, and image and video uploads.",
-    features: [
-      "User authentication using JWT and OAuth providers.",
-      "Infinite scroll for posts.",
-      "Image and video uploads.",
-      "Like, comment, and share posts.",
-      "Follow and unfollow users.",
-      "Dark mode support.",
-    ],
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Supabase",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: socialSphere,
-    source_code_link: "https://github.com/himanshu8443/SocialSphere",
-    live_link: "https://socialspherex.vercel.app/",
-  },
-];
-
-// const experiences = [
-//   {
-//     title: "React.js Developer",
-//     company_name: "Starbucks",
-//     icon: starbucks,
-//     iconBg: "#383E56",
-//     date: "March 2020 - April 2021",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-//   {
-//     title: "React Native Developer",
-//     company_name: "Tesla",
-//     icon: tesla,
-//     iconBg: "#E6DEDD",
-//     date: "Jan 2021 - Feb 2022",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-//   {
-//     title: "Web Developer",
-//     company_name: "Shopify",
-//     icon: shopify,
-//     iconBg: "#383E56",
-//     date: "Jan 2022 - Jan 2023",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-//   {
-//     title: "Full stack Developer",
-//     company_name: "Meta",
-//     icon: meta,
-//     iconBg: "#E6DEDD",
-//     date: "Jan 2023 - Present",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-// ];
-
-// const testimonials = [
-//   {
-//     testimonial:
-//       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-//     name: "Sara Lee",
-//     designation: "CFO",
-//     company: "Acme Co",
-//     image: "https://randomuser.me/api/portraits/women/4.jpg",
-//   },
-//   {
-//     testimonial:
-//       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-//     name: "Chris Brown",
-//     designation: "COO",
-//     company: "DEF Corp",
-//     image: "https://randomuser.me/api/portraits/men/5.jpg",
-//   },
-//   {
-//     testimonial:
-//       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-//     name: "Lisa Wang",
-//     designation: "CTO",
-//     company: "456 Enterprises",
-//     image: "https://randomuser.me/api/portraits/women/6.jpg",
-//   },
-// ];
 
 export {
   services,

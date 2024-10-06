@@ -49,11 +49,11 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-4 text-secondary text-[18px] max-w-3xl leading-[30px] font-semibold'
         >
-          I'm a skilled software developer with experience in TypeScript and
-          JavaScript, and expertise in frameworks like React, Node.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
+           Hi, I'm Girish, a curious enthusiast with a passion for exploring diverse fields.
+           I love cracking complex challenges, designing unique logos, and editing creative projects.
+           Whether it’s solving intricate puzzles or diving into thought-provoking tasks that engage the brain,
+           I thrive on intellectual exploration. I enjoy learning and experimenting in multiple areas,
+           always pushing myself to think critically and creatively.
         </motion.p>
         <Image src={color_sharp} alt="color-sharp" className="absolute z-[-1] h-80 -left-60 w-screen -top-20" />
         <Image src={astronaut} alt="astronaut" className="absolute z-[-1] h-80 -right-20 animation top-28" />
