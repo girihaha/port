@@ -95,7 +95,7 @@ const projects = [
     ],
     image: perplexity,
     source_code_link: "https://github.com/girihaha/port/blob/main/Perplexity-AI-Partnership-with-SoftBank-for-Japan-Expansion.jpg?raw=true",
-    live_link: "https://www.cryptotimes.io/wp-content/uploads/2024/06/Perplexity-AI-Partnership-with-SoftBank-for-Japan-Expansion.jpg",
+    live_link: "https://t.me/girishfr",
   },
 
 export {
