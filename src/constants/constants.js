@@ -95,13 +95,14 @@ const projects = [
     ],
     image: perplexity,
     source_code_link: "https://github.com/girihaha/port/blob/main/Perplexity-AI-Partnership-with-SoftBank-for-Japan-Expansion.jpg?raw=true",
-    live_link: "https://t.me/girishfr",
-  },
-
-export {
-  services,
-  technologies,
-  //  experiences,
-  //  testimonials,
-  projects,
-};
+    live_link: "https://t.me/girishfr"
+    }
+    
+    export {
+      services,
+      technologies,
+      projects,
+      //  experiences,
+      //  testimonials,
+    };
+    
