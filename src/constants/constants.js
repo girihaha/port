@@ -93,15 +93,19 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    {
-      image: perplexity,
-      source_code_link: "Perplexity-AI-Partnership-with-SoftBank-for-Japan-Expansion.jpg",
-      live_link: "https://t.me/girishfr"
-    }
+    const projects = [
+      {
+        color: "blue-text-gradient",
+        image: perplexity,
+        source_code_link: "Perplexity-AI-Partnership-with-SoftBank-for-Japan-Expansion.jpg",
+        live_link: "https://t.me/girishfr"
+      }
+    ];
     
     export {
       services,
       technologies,
       projects,
     };
+    
     
