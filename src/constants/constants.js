@@ -61,15 +61,14 @@ const services = [
   // },
 ];
 
-
 const projects = [
   {
     name: "Perplexity AI Subscription",
     description:
-      "Helping Peoples for their studies and work by providing perplexity ai 1 year subscription on their mail in lowest cost.",
+      "Helping people with their studies and work by providing a 1-year Perplexity AI subscription at the lowest cost.",
     features: [
-      "Users can use many ai models such as gpt 4o, sonar , claude .",
-      "Users can also use image generational model such as playground v3 , dall e .",
+      "Users can access AI models such as GPT-4, Sonar, and Claude.",
+      "Image generation tools like Playground V3 and DALL-E are included.",
     ],
     tags: [
       {
@@ -81,7 +80,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Best Gpt ",
+        name: "Best GPT",
         color: "pink-text-gradient",
       },
       {
@@ -93,19 +92,14 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    const projects = [
-      {
-        color: "blue-text-gradient",
-        image: perplexity,
-        source_code_link: "Perplexity-AI-Partnership-with-SoftBank-for-Japan-Expansion.jpg",
-        live_link: "https://t.me/girishfr"
-      }
-    ];
-    
-    export {
-      services,
-      technologies,
-      projects,
-    };
-    
-    
+    image: perplexity,
+    source_code_link: "Perplexity-AI-Partnership-with-SoftBank-for-Japan-Expansion.jpg",
+    live_link: "https://t.me/girishfr",
+  }
+];
+
+export {
+  services,
+  technologies,
+  projects,
+};
