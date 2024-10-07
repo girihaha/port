@@ -55,10 +55,6 @@ const services = [
     title: "Designer",
     icon: backend,
   },
-  // {
-  //   title: "Creator",
-  //   icon: creator,
-  // },
 ];
 
 const projects = [
@@ -92,7 +88,8 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: require("../assets/Perplexity-AI-Partnership-with-SoftBank-for-Japan-Expansion.jpg"),
+    // Update the image path to the public folder
+    image: "/Perplexity-AI-Partnership-with-SoftBank-for-Japan-Expansion.jpg",
     source_code_link: "https://github.com/girihaha/port",
     live_link: "https://t.me/girishfr",
   }
