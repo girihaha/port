@@ -92,8 +92,8 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: perplexity,
-    source_code_link: "src/assets/Perplexity-AI-Partnership-with-SoftBank-for-Japan-Expansion.jpg",
+    image: require("../assets/Perplexity-AI-Partnership-with-SoftBank-for-Japan-Expansion.jpg"),
+    source_code_link: "https://github.com/girihaha/port",
     live_link: "https://t.me/girishfr",
   }
 ];
