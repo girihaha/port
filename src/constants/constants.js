@@ -93,7 +93,7 @@ const projects = [
       },
     ],
     image: perplexity,
-    source_code_link: "Perplexity-AI-Partnership-with-SoftBank-for-Japan-Expansion.jpg",
+    source_code_link: "src/assets/Perplexity-AI-Partnership-with-SoftBank-for-Japan-Expansion.jpg",
     live_link: "https://t.me/girishfr",
   }
 ];
