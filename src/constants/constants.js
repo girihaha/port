@@ -100,6 +100,5 @@ const projects = [
 
 export {
   services,
-  technologies,
   projects,
 };
