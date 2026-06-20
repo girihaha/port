@@ -14,17 +14,11 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  inkSync,
-  tracker,
   threejs,
   nextjs,
   express,
   java,
-  jwt,
-  nextauth,
-  socialSphere,
+  perplexity,
 } from "../assets";
 
 export const navLinks = [
@@ -54,6 +48,73 @@ const services = [
   {
     title: "Designer",
     icon: backend,
+  },
+];
+
+const technologies = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
+    name: "Express JS",
+    icon: express,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Git",
+    icon: git,
+  },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "Figma",
+    icon: figma,
   },
 ];
 
@@ -88,14 +149,14 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    // Update the image path to the public folder
-    image: "/Perplexity-AI-Partnership-with-SoftBank-for-Japan-Expansion.jpg",
+    image: perplexity,
     source_code_link: "https://github.com/girihaha/port",
     live_link: "https://t.me/girishfr",
-  }
+  },
 ];
 
 export {
   services,
+  technologies,
   projects,
 };
